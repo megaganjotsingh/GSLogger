@@ -33,8 +33,8 @@ class ViewController: UIViewController {
     }
     
     func awesomeFunction() {
-        GSShortLine()
-//        GS4("Show Error")
+//        GSShortLine()
+        GS4("Show Error")
     }
 
     func customColors() {
@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     }
     
     func setupOnlineLogs() {
-        OnlineGSLogs.setupOnlineLogs(formLink: "https://docs.google.com/forms/d/1gFTmV7WzAnPHt9dMDA15ONaiMJJ4qxhVnCryC0GSLpk/formResponse", versionField: "entry_480485904", userInfoField: "entry_553078185", methodInfoField: "entry_1783281469", textField: "entry_1110029300")
+        OnlineGSLogs.setupOnlineLogs(formLink: "https://docs.google.com/forms/d/e/1FAIpQLSfEBvi2Q1S0l7sdNodfx8OzJ0WgdSsikNnh8cEUs9T8flWqkA/formResponse", versionField: "entry_480485904", userInfoField: "entry_553078185", methodInfoField: "entry_1783281469", textField: "entry_1110029300")
         GSLogs.enabled = false
         OnlineGSLogs.enabled = true
         OnlineGSLogs.extraInformation["creator"] = "Gaganjot singh"
