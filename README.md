@@ -19,12 +19,6 @@ class MyAwesomeViewController: UIViewController {
 }
 ```
 <br><br><br>
-## Works for both night mode and lightmode
-
-<br><br><br>
-## Autocomplete Friendly: Type 2 Letters
-
-<br><br><br>
 ## Filter File Specific Logs:
 Paste this where GSLogs is initiliazed:
 ```swift
